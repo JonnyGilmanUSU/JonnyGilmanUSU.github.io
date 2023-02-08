@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chewy&family=Overlock&display=swap');
+
+
+body{
+    background-color: #FCEBB6; 
+    text-emphasis-color: #221811;
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+}
+
+
+header{
+    color: #8C3826; 
+    background-color: #D2B48C;
+    text-align: center;
+    font-family: 'Chewy', cursive;
+}
+
+
+h1{
+    line-height: 200%;
+}
+
+
+h2{
+    color: #8c3826;
+    font-family: 'Chewy', cursive;
+}
+
+
+nav{
+    text-align: center;
+    font-weight: bold;
+}
+
+p{
+    font-family: 'Overlock', cursive;
+}
+
+
+footer{
+    background-color: #D2B48C;
+    font-size: .60em;
+    text-align: center;
+    font-style: italic;
+}
+
+#wrapper{
+    width: 80%;
+    background-color: #FEDAEB;
+    margin-right: auto;
+    margin-left: auto;
+}
