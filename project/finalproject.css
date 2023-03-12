@@ -9,6 +9,7 @@
     text-decoration: none;
     list-style-type: none;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body{
@@ -19,7 +20,6 @@ nav{
     background: white;
     height: 80px;
     width: 100%;
-    
 }
 
 label.logo{
@@ -27,11 +27,12 @@ label.logo{
     font-size: 35px;
     line-height: 80px;
     padding: 0 100px;
+
 }
 
 nav ul{
     float: right;
-    margin-right: 20px;
+    margin-right: 20px; 
 }
 
 nav ul li{
@@ -47,13 +48,19 @@ nav ul li a{
     font-family: 'Lato', sans-serif;
     padding: 7px 13px;
     border-radius: 3px;
-    
 }
 
 a.active, a:hover{
     background: #1b9bff;
     transition: .5s;
 }
+
+ #sticky{
+    position: fixed;
+    top: auto;
+    width: 100%;
+} 
+
 
 #heroimage{
     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/heroimage.jpeg);
@@ -63,9 +70,7 @@ a.active, a:hover{
     height: 100vh;
     align-items: center;
     justify-content: center;
-
 }
-
 
 #heroimage .herotext_1{
     overflow: auto;
@@ -82,7 +87,46 @@ a.active, a:hover{
     width: 500px;
     line-height: 80px;
     text-transform: uppercase;
-    
 }
 
+#About-Me{
+    margin: 30px;
+    font-size: 1.8em;
+    padding-top: 3.5em;
+    padding-bottom: 3.5em;
+    background-color: #007A78;
+}
 
+#About-Me h1{
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+#Professional{
+    margin: 30px;
+    font-size: 1.8em;
+    padding-top: 3.5em;
+    padding-bottom: 3.5em;
+    background-color: #076F91;
+}
+
+#Professional h1{
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+#Hobbies{
+    margin: 30px;
+    font-size: 1.8em;
+    padding-top: 3.5em;
+    padding-bottom: 3.5em;
+    background-color: #079168;
+}
+
+#Hobbies h1{
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
